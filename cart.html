@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="images/logo.jpg" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header"class="about-header">
+        <h2>#Let's_talk</h2>
+        <p>LEAVE A MESSAGE.We love to hear from you!</p>
+    </section>
+    <br>
+    
+    <section id="cart" class="sectionp1">
+        <table width="100%" >
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quality</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="fa fa-times-circle"></i></a></td>
+                    <td><img src="images/buy-1.jpg"></td>
+                    <td>White Printed T-shirt</td>
+                    <td>R149.99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R149.99</td>   
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fa fa-times-circle"></i></a></td>
+                    <td><img src="images/buy-3.jpg"></td>
+                    <td>Yellow Printed T-shirt</td>
+                    <td>R149.99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R149.99</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fa fa-times-circle"></i></a></td>
+                    <td><img src="images/buy-2.jpg"></td>
+                    <td>White Printed T-shirt</td>
+                    <td>R149.99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R149.99</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <a href=""><button class="normal">Apply</button></a>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Subtotal</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td><input type="number" value="R 149.99"></td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>R449.99</strong></td>
+                </tr>
+            </table>
+            <a href=""><button class="normal">Proceed to checkout</button></a>
+        </div>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo.jpg" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 32 King Dinuzulu Berea Rd 4001</p>
+            <p><strong>Phone: </strong> +27 76 768 5433 /+32 502 5739</p>
+            <p><strong>Hours: </strong> 24hrs Mon - Sun</p>
+            <div class="Follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href=""><img src="images/a.jpg"  width="30px" height="30px"><i class="fab fa-Facebook-f"></i></a>
+                    <a href=""><img src="images/aa.png"  width="30px" height="30px"><i class="fab fa-Twitter-f"></i></a>
+                    <a href=""><img src="images/aaa.jpg"  width="30px" height="30px"><i class="fab fa-Instagram-f"></i></a>
+                    <a href=""><img src="images/aaaaa.png" width="30px" height="30px"><i class="fab fa-Youtube-f"></i></a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About us</a>
+            <a href="#">Delivery Information </a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Accounts</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+            </ul>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/app-store.jpg" width="130px" height="65px">
+                <img src="images/play-store.png" width="130px" height="65px">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/AAAH.png" width="230px" height="60px">
+        </div>
+
+        <div class="copyright">
+            <p>@ 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
